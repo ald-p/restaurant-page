@@ -10,13 +10,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'FastBreak Restaurant',
+      template: 'src/index.html',
+      inject: 'body'
     })
   ],
   devServer: {
     static: path.resolve(__dirname, 'dist'),
     port: 8080,
-    hot: true
+    hot: true,
+    historyApiFallback: true
   },
   module: {
     rules: [

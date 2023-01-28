@@ -1,6 +1,6 @@
 const Home = () => {
   const homeContent = document.createElement('div');
-  homeContent.textContent = 'This is the home page';
+  homeContent.textContent = 'This is the home page.';
 
   return homeContent;
 }

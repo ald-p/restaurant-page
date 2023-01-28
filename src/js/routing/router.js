@@ -1,6 +1,7 @@
 import Home from '../pages/home';
 import Menu from '../pages/menu';
 import Contact from '../pages/contact';
+import Reservations from '../pages/reservations';
 
 const route = (e) => {
   e.preventDefault();
@@ -11,6 +12,7 @@ const route = (e) => {
 const routes = {
   "/": Home(),
   "/menu": Menu(),
+  "/reservations": Reservations(),
   "/contact": Contact()
 };
 

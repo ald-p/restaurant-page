@@ -6,15 +6,18 @@ const Nav = () => {
   
   const navLinksContainer = document.createElement('ul');
 
-  const homeLink = createNavLink('HOME', '/');
-  navLinksContainer.appendChild(homeLink);
-
   const menuLink = createNavLink('MENU', '/menu');
   navLinksContainer.appendChild(menuLink);
+
+  const homeLink = createNavLink('RESERVATIONS', '/reservations');
+  navLinksContainer.appendChild(homeLink);
 
   const contactLink = createNavLink('CONTACT', '/contact');
   navLinksContainer.appendChild(contactLink);
 
+  const logoLink = createNavLink('FASTBREAK', '/');
+
+  navContainer.appendChild(logoLink);
   navContainer.appendChild(navLinksContainer);
 
   document.getElementById('nav').appendChild(navContainer);

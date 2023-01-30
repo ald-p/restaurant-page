@@ -9,18 +9,18 @@ const route = (e) => {
   handleLocation();
 }
 
+const handleLocation = () => {
+  const path = window.location.pathname;
+  const content = routes[path];
+  document.getElementById('page-content').replaceChildren(content);
+}
+
 const routes = {
   "/": Home(),
   "/menu": Menu(),
   "/reservations": Reservations(),
   "/contact": Contact()
 };
-
-const handleLocation = () => {
-  const path = window.location.pathname;
-  const content = routes[path];
-  document.getElementById('page-content').replaceChildren(content);
-}
 
 window.onpopstate = handleLocation;
 

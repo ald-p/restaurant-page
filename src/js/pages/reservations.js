@@ -1,4 +1,4 @@
-import ReservationForm from "../../components/reservations/reservation-form/reservation-form";
+import ReservationForm from "../components/reservations/reservation-form";
 
 const Reservations = () => {
   const reservationsContent = document.createElement('div');

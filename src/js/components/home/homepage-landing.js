@@ -1,4 +1,4 @@
-import { createLinkButton } from "../../../js/utilities/buttons.utils";
+import { createLinkButton } from "../../utilities/buttons.utils";
 
 const HomeLanding = () => {
   const container = document.createElement('div');

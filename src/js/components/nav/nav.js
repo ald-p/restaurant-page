@@ -1,4 +1,4 @@
-import { route }from "../../js/routing/router";
+import { route } from "../../routing/router";
 
 const Nav = () => {
   const navContainer = document.createElement('div');

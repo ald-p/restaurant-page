@@ -1,6 +1,6 @@
-import { createFormField, createTimeDataList } from "../../../js/utilities/forms.utils";
-import { setMultipleAttributes, createDataList } from "../../../js/utilities/elements.utils";
-import { createButton } from "../../../js/utilities/buttons.utils";
+import { createFormField, createTimeDataList } from "../../utilities/forms.utils";
+import { setMultipleAttributes, createDataList } from "../../utilities/elements.utils";
+import { createButton } from "../../utilities/buttons.utils";
 
 const ReservationForm = () => {
   const container = document.createElement('div');
